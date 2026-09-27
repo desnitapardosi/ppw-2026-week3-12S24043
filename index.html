@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio Desnita Pardosi, mahasiswa Sistem Informasi Institut Teknologi Del.">
+    <title>Portfolio - Desnita Pardosi</title>
+
+    <!-- Bootstrap 5.3 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS Overrides (Dimuat setelah Bootstrap) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =====================================================
+         HEADER / NAVBAR
+    ====================================================== -->
+    <header class="site-header sticky-top">
+        <nav class="navbar navbar-expand-lg py-3">
+            <div class="container d-flex justify-content-between align-items-center">
+                
+                <!-- Logo: Hanya foto profil bulat (tanpa teks) -->
+                <a href="#home" class="logo" aria-label="Kembali ke halaman utama">
+                    <img src="./foto-profil.jpeg" alt="Foto profil Desnita Pardosi">
+                </a>
+
+                <!-- Hamburger Button untuk Mobile -->
+                <button class="navbar-toggler border-0 shadow-none text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation Links (Kapsul Melayang) -->
+                <div class="collapse navbar-collapse flex-grow-0" id="mainNavbar">
+                    <ul class="navbar-nav gap-1 text-center">
+                        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#profile">Profile</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- =================================================
+             SECTION 1 - HOME / HERO SECTION (CENTERED)
+        ================================================== -->
+        <section id="home" class="hero d-flex align-items-center justify-content-center position-relative overflow-hidden">
+            
+            <!-- Decorative Circles -->
+            <span class="circle circle-1" aria-hidden="true"></span>
+            <span class="circle circle-2" aria-hidden="true"></span>
+            <span class="circle circle-3" aria-hidden="true"></span>
+            <span class="circle circle-4" aria-hidden="true"></span>
+            <span class="circle circle-5" aria-hidden="true"></span>
+
+            <!-- Content Centered -->
+            <article class="hero-content text-center">
+                <p class="hero-label">PORTFOLIO 2026</p>
+                
+                <h1 id="hero-title">
+                    DESNITA
+                    <span>PARDOSI</span>
+                </h1>
+
+                <p class="hero-role">
+                    Information Systems Student
+                </p>
+
+                <p class="hero-description">
+                    Mahasiswa Sistem Informasi Institut Teknologi Del yang memiliki minat dalam pengembangan sistem,
+                    Artificial Intelligence (AI), analisis data, cybersecurity, dan teknologi digital.
+                    Memiliki ketertarikan untuk mempelajari dan mengembangkan solusi teknologi yang dapat memberikan
+                    manfaat bagi pengguna dan organisasi.
+                </p>
+
+                <a href="#projects" class="hero-button">
+                    Lihat Karya <span aria-hidden="true">→</span>
+                </a>
+            </article>
+
+            <!-- Foto Profil Kanan Bawah -->
+            <aside class="hero-photo" aria-label="Foto profil">
+                <span class="photo-background" aria-hidden="true"></span>
+                <img src="./foto-profil.jpeg" alt="Foto Desnita Pardosi" class="profile-image">
+            </aside>
+
+    
+            </div>
+
+        </section>
+
+        <!-- =================================================
+             SECTION 2 - PROFILE / TENTANG SAYA
+        ================================================== -->
+        <section id="profile" class="profile-section py-5">
+            <div class="container py-4">
+                <header class="section-heading mb-5">
+                    <p class="section-subtitle text-uppercase fw-bold mb-1">02 — PROFILE</p>
+                    <h2 class="section-title display-5 fw-bold">Tentang Saya</h2>
+                </header>
+
+                <div class="row gy-4">
+                    <!-- Main Profile Card -->
+                    <div class="col-lg-7">
+                        <article class="profile-card h-100 p-4 p-md-5 rounded-4 shadow-sm">
+                            <h3 class="fw-bold mb-3 text-dark-custom">Desnita Pardosi</h3>
+                            <p class="text-secondary">
+                                Halo, saya merupakan mahasiswa Program Studi S1 Sistem Informasi di Institut Teknologi Del, angkatan 2024.
+                            </p>
+                            <p class="text-secondary">
+                                Saya memiliki ketertarikan dalam bidang teknologi informasi, khususnya pengembangan sistem, artificial intelligence, data analytics, cybersecurity, dan digital innovation.
+                            </p>
+                            <p class="text-secondary mb-0">
+                                Melalui berbagai proyek perkuliahan, saya terus mengembangkan kemampuan dalam menganalisis permasalahan, merancang sistem, mengelola database, serta membangun solusi teknologi yang bermanfaat.
+                            </p>
+                        </article>
+                    </div>
+
+                    <!-- Academic Info Aside -->
+                    <div class="col-lg-5">
+                        <aside class="profile-aside h-100 p-4 p-md-5 rounded-4 text-white shadow-sm">
+                            <h3 class="fw-bold mb-4 text-white"><i class="bi bi-mortarboard me-2"></i>Informasi Akademik</h3>
+                            <dl class="row gy-3 mb-0">
+                                <div class="col-12 pb-2 border-bottom border-light-subtle">
+                                    <dt class="small text-uppercase text-light-50">Nama</dt>
+                                    <dd class="fw-semibold mb-0">Desnita Pardosi</dd>
+                                </div>
+                                <div class="col-12 pb-2 border-bottom border-light-subtle">
+                                    <dt class="small text-uppercase text-light-50">Program Studi</dt>
+                                    <dd class="fw-semibold mb-0">S1 Sistem Informasi</dd>
+                                </div>
+                                <div class="col-12 pb-2 border-bottom border-light-subtle">
+                                    <dt class="small text-uppercase text-light-50">Institusi</dt>
+                                    <dd class="fw-semibold mb-0">Institut Teknologi Del</dd>
+                                </div>
+                                <div class="col-12">
+                                    <dt class="small text-uppercase text-light-50">Angkatan</dt>
+                                    <dd class="fw-semibold mb-0">2024</dd>
+                                </div>
+                            </dl>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       <!-- =================================================
+     SECTION 3 - PROJECTS & MODALS (UPDATED)
+================================================== -->
+<section id="projects" class="projects-section py-5">
+    <div class="container py-4">
+        <header class="section-heading mb-5">
+            <p class="section-subtitle text-uppercase fw-bold mb-1">03 — PORTFOLIO</p>
+            <h2 class="section-title display-5 fw-bold">Karya & Proyek</h2>
+        </header>
+
+        <!-- Project Grid (Bootstrap 12-Column Grid) -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5">
+            
+            <!-- Project Card 1 -->
+            <div class="col">
+                <article class="project-card card h-100 border-0 rounded-4 shadow-sm p-4">
+                    <div class="card-body p-0 d-flex flex-column">
+                        <span class="project-number text-uppercase fw-bold mb-3">PROJECT 01</span>
+                        <h3 class="card-title h4 fw-bold text-dark-custom mb-3">Organic Fruit Store</h3>
+                        <p class="card-text text-secondary mb-4 flex-grow-1">
+                            Sistem penjualan buah organik yang dikembangkan secara berkelompok dengan menerapkan konsep OOP dan database.
+                        </p>
+                        <div class="mb-4">
+                            <span class="badge badge-custom me-1 mb-1">Java</span>
+                            <span class="badge badge-custom me-1 mb-1">MySQL</span>
+                            <span class="badge badge-custom me-1 mb-1">Maven</span>
+                            <span class="badge badge-custom me-1 mb-1">JDBC</span>
+                        </div>
+                        <button type="button" class="btn btn-outline-primary-custom rounded-pill mt-auto w-100 fw-bold"
+                            data-bs-toggle="modal" data-bs-target="#modalProject1">
+                            <i class="bi bi-info-circle me-1"></i> Detail Proyek
+                        </button>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div class="col">
+                <article class="project-card card h-100 border-0 rounded-4 shadow-sm p-4">
+                    <div class="card-body p-0 d-flex flex-column">
+                        <span class="project-number text-uppercase fw-bold mb-3">PROJECT 02</span>
+                        <h3 class="card-title h4 fw-bold text-dark-custom mb-3">Rekam Medis Klinik Del</h3>
+                        <p class="card-text text-secondary mb-4 flex-grow-1">
+                            Perancangan sistem informasi rekam medis terintegrasi dengan CIS untuk pengajuan izin sakit mahasiswa.
+                        </p>
+                        <div class="mb-4">
+                            <span class="badge badge-custom me-1 mb-1">Figma</span>
+                            <span class="badge badge-custom me-1 mb-1">ERD</span>
+                            <span class="badge badge-custom me-1 mb-1">DFD</span>
+                            <span class="badge badge-custom me-1 mb-1">UI/UX</span>
+                        </div>
+                        <button type="button" class="btn btn-outline-primary-custom rounded-pill mt-auto w-100 fw-bold"
+                            data-bs-toggle="modal" data-bs-target="#modalProject2">
+                            <i class="bi bi-info-circle me-1"></i> Detail Proyek
+                        </button>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="col">
+                <article class="project-card card h-100 border-0 rounded-4 shadow-sm p-4">
+                    <div class="card-body p-0 d-flex flex-column">
+                        <span class="project-number text-uppercase fw-bold mb-3">PROJECT 03</span>
+                        <h3 class="card-title h4 fw-bold text-dark-custom mb-3">Database Akademik CIS</h3>
+                        <p class="card-text text-secondary mb-4 flex-grow-1">
+                            Perancangan database untuk mendukung pengelolaan data akademik seperti KRS, presensi, dan jadwal.
+                        </p>
+                        <div class="mb-4">
+                            <span class="badge badge-custom me-1 mb-1">SQL</span>
+                            <span class="badge badge-custom me-1 mb-1">ERD</span>
+                            <span class="badge badge-custom me-1 mb-1">3NF</span>
+                            <span class="badge badge-custom me-1 mb-1">Database</span>
+                        </div>
+                        <button type="button" class="btn btn-outline-primary-custom rounded-pill mt-auto w-100 fw-bold"
+                            data-bs-toggle="modal" data-bs-target="#modalProject3">
+                            <i class="bi bi-info-circle me-1"></i> Detail Proyek
+                        </button>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Project Card 4 (PROYEK BARU 1: BPR PMB IT Del) -->
+            <div class="col">
+                <article class="project-card card h-100 border-0 rounded-4 shadow-sm p-4">
+                    <div class="card-body p-0 d-flex flex-column">
+                        <span class="project-number text-uppercase fw-bold mb-3">PROJECT 04</span>
+                        <h3 class="card-title h4 fw-bold text-dark-custom mb-3">Redesain PMB IT Del</h3>
+                        <p class="card-text text-secondary mb-4 flex-grow-1">
+                            Analisis & Business Process Redesign (BPR) Penerimaan Mahasiswa Baru menggunakan BPMN 2.0, Flow & Queuing Analysis.
+                        </p>
+                        <div class="mb-4">
+                            <span class="badge badge-custom me-1 mb-1">BPMN 2.0</span>
+                            <span class="badge badge-custom me-1 mb-1">Bizagi</span>
+                            <span class="badge badge-custom me-1 mb-1">Queuing Analysis</span>
+                            <span class="badge badge-custom me-1 mb-1">Automation</span>
+                        </div>
+                        <button type="button" class="btn btn-outline-primary-custom rounded-pill mt-auto w-100 fw-bold"
+                            data-bs-toggle="modal" data-bs-target="#modalProject4">
+                            <i class="bi bi-info-circle me-1"></i> Detail Proyek
+                        </button>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Project Card 5 (PROYEK BARU 2: Cyber Deception & AI Behavior) -->
+            <div class="col">
+                <article class="project-card card h-100 border-0 rounded-4 shadow-sm p-4">
+                    <div class="card-body p-0 d-flex flex-column">
+                        <span class="project-number text-uppercase fw-bold mb-3">PROJECT 05</span>
+                        <h3 class="card-title h4 fw-bold text-dark-custom mb-3">AI Exam Monitoring & Deception</h3>
+                        <p class="card-text text-secondary mb-4 flex-grow-1">
+                            Karya Tulis Ilmiah strategi integratif pemantauan perilaku AI dan Cyber Deception untuk mencegah kecurangan ujian.
+                        </p>
+                        <div class="mb-4">
+                            <span class="badge badge-custom me-1 mb-1">Cybersecurity</span>
+                            <span class="badge badge-custom me-1 mb-1">AI Behavior</span>
+                            <span class="badge badge-custom me-1 mb-1">Cyber Deception</span>
+                            <span class="badge badge-custom me-1 mb-1">KTI Gemastik</span>
+                        </div>
+                        <button type="button" class="btn btn-outline-primary-custom rounded-pill mt-auto w-100 fw-bold"
+                            data-bs-toggle="modal" data-bs-target="#modalProject5">
+                            <i class="bi bi-info-circle me-1"></i> Detail Proyek
+                        </button>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+
+        <!-- Project Table -->
+        <div class="table-responsive rounded-4 shadow-sm">
+            <table class="table table-hover align-middle mb-0">
+                <caption class="p-3 bg-dark-custom text-white fw-bold caption-top rounded-top-4">
+                    <i class="bi bi-table me-2"></i>Rekapitulasi Proyek dan Kemampuan
+                </caption>
+                <thead class="table-dark-custom">
+                    <tr>
+                        <th scope="col" class="py-3">No.</th>
+                        <th scope="col" class="py-3">Proyek</th>
+                        <th scope="col" class="py-3">Teknologi</th>
+                        <th scope="col" class="py-3">Peran / Fokus</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td class="fw-semibold">Organic Fruit Store</td>
+                        <td>Java, MySQL, Maven, JDBC</td>
+                        <td>Pemrograman Berorientasi Objek</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td class="fw-semibold">Sistem Informasi Rekam Medis Klinik Del</td>
+                        <td>Figma, ERD, DFD</td>
+                        <td>Analisis dan Perancangan Sistem</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td class="fw-semibold">Database Akademik CIS</td>
+                        <td>SQL, ERD, 3NF</td>
+                        <td>Perancangan Database</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td class="fw-semibold">Redesain Proses Bisnis PMB IT Del</td>
+                        <td>BPMN 2.0, Bizagi, Simulation, BPR</td>
+                        <td>Analisis & Redesain Proses Bisnis</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td class="fw-semibold">AI Exam Monitoring & Cyber Deception</td>
+                        <td>AI Monitoring, Cyber Deception Strategy</td>
+                        <td>Riset AI & Cybersecurity (Gemastik)</td>
+                    </tr>
+                </tbody>
+                <tfoot class="table-light-custom">
+                    <tr>
+                        <th scope="row" colspan="2" class="py-3">Total Proyek</th>
+                        <td colspan="2" class="fw-bold py-3">5 Proyek Akademik & Riset</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- =================================================
+     MODALS FOR PROJECTS
+================================================== -->
+<!-- Modal Project 1 -->
+<div class="modal fade" id="modalProject1" tabindex="-1" aria-labelledby="modalProject1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4 border-0 shadow">
+            <div class="modal-header border-bottom-0 pb-0">
+                <h1 class="modal-title fs-5 fw-bold text-dark-custom" id="modalProject1Label">Organic Fruit Store</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body py-4">
+                <p class="text-secondary">
+                    Proyek ini merupakan aplikasi manajemen toko buah organik berbasis Desktop/Console Java. Sistem dikembangkan menggunakan arsitektur MVC (Model-View-Controller) serta terhubung dengan MySQL via JDBC untuk persistensi data produk dan pemesanan.
+                </p>
+                <ul class="list-group list-group-flush small">
+                    <li class="list-group-item bg-transparent px-0"><strong class="text-dark">Kategori:</strong> Software Engineering</li>
+                    <li class="list-group-item bg-transparent px-0"><strong class="text-dark">Fitur Utama:</strong> CRUD Stok Buah, Hitung Total Transaksi, Laporan Penjualan</li>
+                </ul>
+            </div>
+            <div class="modal-footer border-top-0 pt-0">
+                <button type="button" class="btn btn-secondary rounded-pill px-4" data-bs-dismiss="modal">Tutup</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Project 2 -->
+<div class="modal fade" id="modalProject2" tabindex="-1" aria-labelledby="modalProject2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4 border-0 shadow">
+            <div class="modal-header border-bottom-0 pb-0">
+                <h1 class="modal-title fs-5 fw-bold text-dark-custom" id="modalProject2Label">Sistem Rekam Medis Klinik Del</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body py-4">
+                <p class="text-secondary">
+                    Perancangan antarmuka dan alur sistem informasi medis kampus. Mencakup pemetaan alur DFD Level 0-2, skema ERD relasional, dan desain prototipe interaktif high-fidelity di Figma.
+                </p>
+                <ul class="list-group list-group-flush small">
+                    <li class="list-group-item bg-transparent px-0"><strong class="text-dark">Kategori:</strong> System Analysis & UI/UX</li>
+                    <li class="list-group-item bg-transparent px-0"><strong class="text-dark">Hasil Akhir:</strong> SRS Document & Interactive Prototype Figma</li>
+                </ul>
+            </div>
+            <div class="modal-footer border-top-0 pt-0">
+                <button type="button" class="btn btn-secondary rounded-pill px-4" data-bs-dismiss="modal">Tutup</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Project 3 -->
+<div class="modal fade" id="modalProject3" tabindex="-1" aria-labelledby="modalProject3Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4 border-0 shadow">
+            <div class="modal-header border-bottom-0 pb-0">
+                <h1 class="modal-title fs-5 fw-bold text-dark-custom" id="modalProject3Label">Database Akademik CIS</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body py-4">
+                <p class="text-secondary">
+                    Perancangan arsitektur basis data relasional kompleks untuk mendukung perkuliahan. Proses melibatkan normalisasi data hingga bentuk 3NF guna mencegah anomali data.
+                </p>
+                <ul class="list-group list-group-flush small">
+                    <li class="list-group-item bg-transparent px-0"><strong class="text-dark">Kategori:</strong> Database Architecture</li>
+                    <li class="list-group-item bg-transparent px-0"><strong class="text-dark">Cakupan:</strong> DDL, DML Query, Stored Procedures, Normalisasi 3NF</li>
+                </ul>
+            </div>
+            <div class="modal-footer border-top-0 pt-0">
+                <button type="button" class="btn btn-secondary rounded-pill px-4" data-bs-dismiss="modal">Tutup</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Project 4 -->
+<div class="modal fade" id="modalProject4" tabindex="-1" aria-labelledby="modalProject4Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4 border-0 shadow">
+            <div class="modal-header border-bottom-0 pb-0">
+                <h1 class="modal-title fs-5 fw-bold text-dark-custom" id="modalProject4Label">Redesain Proses Bisnis PMB IT Del</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body py-4">
+                <p class="text-secondary">
+                    Perancangan ulang (Business Process Redesign) sistem Penerimaan Mahasiswa Baru di IT Del[cite: 2]. Menganalisis model As-Is, mengidentifikasi waste (Waiting, Move, Defects), serta merancang model To-Be terintegrasi dengan automasi verifikasi nilai UTBK via API[cite: 2].
+                </p>
+                <ul class="list-group list-group-flush small">
+                    <li class="list-group-item bg-transparent px-0"><strong class="text-dark">Kategori:</strong> Business Process Management (BPM)[cite: 2]</li>
+                    <li class="list-group-item bg-transparent px-0"><strong class="text-dark">Metode Utama:</strong> Pareto Analysis, Fishbone RCA, Queuing Analysis (M/M/1 & M/M/2), BPR Heuristics[cite: 2]</li>
+                </ul>
+            </div>
+            <div class="modal-footer border-top-0 pt-0">
+                <button type="button" class="btn btn-secondary rounded-pill px-4" data-bs-dismiss="modal">Tutup</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Project 5 -->
+<div class="modal fade" id="modalProject5" tabindex="-1" aria-labelledby="modalProject5Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4 border-0 shadow">
+            <div class="modal-header border-bottom-0 pb-0">
+                <h1 class="modal-title fs-5 fw-bold text-dark-custom" id="modalProject5Label">AI Behavior & Cyber Deception in Exams</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body py-4">
+                <p class="text-secondary">
+                    Karya Tulis Ilmiah Gemastik 2026 yang merumuskan strategi integratif pemantauan perilaku AI dan teknologi *Cyber Deception* guna mengidentifikasi serta mencegah kecurangan akademis pada ujian daring[cite: 1].
+                </p>
+                <ul class="list-group list-group-flush small">
+                    <li class="list-group-item bg-transparent px-0"><strong class="text-dark">Kategori:</strong> Research & Cybersecurity[cite: 1]</li>
+                    <li class="list-group-item bg-transparent px-0"><strong class="text-dark">Fokus Riset:</strong> AI Behavior Monitoring, Honeypot/Deception Mechanisms, Academic Integrity[cite: 1]</li>
+                </ul>
+            </div>
+            <div class="modal-footer border-top-0 pt-0">
+                <button type="button" class="btn btn-secondary rounded-pill px-4" data-bs-dismiss="modal">Tutup</button>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- =================================================
+             SECTION 4 - SKILLS SECTION
+        ================================================== -->
+        <section id="skills" class="skills-section py-5">
+            <div class="container py-4">
+                <header class="skills-title text-center mb-5">
+                    <p class="section-subtitle text-uppercase fw-bold mb-1">04 — CAPABILITIES</p>
+                    <h2 class="display-5 fw-bold text-accent-dark">Skills</h2>
+                    <span class="title-line"></span>
+                </header>
+
+                <div class="skills-container p-4 p-md-5 rounded-4 shadow-sm">
+                    <ul class="skills-list d-flex flex-wrap justify-content-center gap-3 p-0 mb-0" aria-label="Daftar kemampuan">
+                        <li class="skill-card p-3 rounded-3 shadow-sm d-flex align-items-center gap-3"><span class="skill-icon badge">WEB</span> Web Development</li>
+                        <li class="skill-card p-3 rounded-3 shadow-sm d-flex align-items-center gap-3"><span class="skill-icon badge">JAVA</span> Java</li>
+                        <li class="skill-card p-3 rounded-3 shadow-sm d-flex align-items-center gap-3"><span class="skill-icon badge">SQL</span> MySQL</li>
+                        <li class="skill-card p-3 rounded-3 shadow-sm d-flex align-items-center gap-3"><span class="skill-icon badge">DB</span> Database</li>
+                        <li class="skill-card p-3 rounded-3 shadow-sm d-flex align-items-center gap-3"><span class="skill-icon badge">UI</span> UI/UX Design</li>
+                        <li class="skill-card p-3 rounded-3 shadow-sm d-flex align-items-center gap-3"><span class="skill-icon badge">AI</span> Artificial Intelligence</li>
+                        <li class="skill-card p-3 rounded-3 shadow-sm d-flex align-items-center gap-3"><span class="skill-icon badge">DATA</span> Data Analytics</li>
+                        <li class="skill-card p-3 rounded-3 shadow-sm d-flex align-items-center gap-3"><span class="skill-icon badge">SEC</span> Cybersecurity</li>
+                        <li class="skill-card p-3 rounded-3 shadow-sm d-flex align-items-center gap-3"><span class="skill-icon badge">GIT</span> Git & GitHub</li>
+                        <li class="skill-card p-3 rounded-3 shadow-sm d-flex align-items-center gap-3"><span class="skill-icon badge">FGM</span> Figma</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- =================================================
+             SECTION 5 - CONTACT / FORMULIR LAYANAN (Floating Labels & Input Groups)
+        ================================================== -->
+        <section id="contact" class="contact-section py-5">
+            <div class="container py-4">
+                <header class="section-heading mb-3">
+                    <p class="section-subtitle text-uppercase fw-bold mb-1">05 — CONTACT</p>
+                    <h2 class="section-title display-5 fw-bold">Formulir Layanan</h2>
+                </header>
+
+                <p class="contact-intro text-secondary lead mb-5">
+                    Silakan isi formulir berikut untuk mengajukan konsultasi atau membicarakan kebutuhan proyek.
+                </p>
+
+                <form class="contact-form max-w-900 mx-auto needs-validation" action="#" method="post" novalidate>
+                    
+                    <!-- FIELDSET 1 -->
+                    <fieldset class="p-4 p-md-5 rounded-4 bg-white shadow-sm mb-4 border-0">
+                        <legend class="float-none w-auto px-3 py-1 bg-accent text-white rounded-3 fs-6 fw-bold mb-4">
+                            Informasi Pemohon
+                        </legend>
+
+                        <div class="row g-3">
+                            <!-- Nama -->
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama Lengkap" autocomplete="name" required>
+                                    <label for="nama"><i class="bi bi-person me-1"></i> Nama Lengkap *</label>
+                                    <div class="invalid-feedback">Nama lengkap wajib diisi.</div>
+                                </div>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="nama@email.com" autocomplete="email" required>
+                                    <label for="email"><i class="bi bi-envelope me-1"></i> Email *</label>
+                                    <div class="invalid-feedback">Masukkan alamat email yang valid.</div>
+                                </div>
+                            </div>
+
+                            <!-- Telepon with Input Group -->
+                            <div class="col-md-6">
+                                <label for="telepon" class="form-label fw-bold small text-dark mb-1">Nomor Telepon *</label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-light-custom"><i class="bi bi-telephone"></i></span>
+                                    <input type="tel" class="form-control py-3" id="telepon" name="telepon" placeholder="08xxxxxxxxxx" pattern="[0-9]{10,15}" autocomplete="tel" required>
+                                    <div class="invalid-feedback">Nomor telepon wajib diisi (10-15 digit angka).</div>
+                                </div>
+                            </div>
+
+                            <!-- Jumlah Pertemuan -->
+                            <div class="col-md-6">
+                                <label for="pertemuan" class="form-label fw-bold small text-dark mb-1">Jumlah Pertemuan *</label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-light-custom"><i class="bi bi-calendar-event"></i></span>
+                                    <input type="number" class="form-control py-3" id="pertemuan" name="pertemuan" min="1" max="10" value="1" required>
+                                    <div class="invalid-feedback">Minimal 1 dan maksimal 10 pertemuan.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <!-- FIELDSET 2 -->
+                    <fieldset class="p-4 p-md-5 rounded-4 bg-white shadow-sm mb-4 border-0">
+                        <legend class="float-none w-auto px-3 py-1 bg-accent text-white rounded-3 fs-6 fw-bold mb-4">
+                            Detail Layanan
+                        </legend>
+
+                        <!-- Jenis Layanan -->
+                        <div class="mb-4">
+                            <label for="layanan" class="form-label fw-bold small text-dark">Jenis Layanan *</label>
+                            <select class="form-select py-3" id="layanan" name="layanan" required>
+                                <option value="">-- Pilih layanan --</option>
+                                <option value="web">Web Development</option>
+                                <option value="database">Database</option>
+                                <option value="uiux">UI/UX Design</option>
+                                <option value="system">Analisis Sistem</option>
+                                <option value="consultation">Konsultasi Teknologi</option>
+                            </select>
+                            <div class="invalid-feedback">Silakan pilih jenis layanan.</div>
+                        </div>
+
+                        <!-- Metode Konsultasi -->
+                        <div class="mb-4">
+                            <span class="form-label fw-bold small text-dark d-block mb-2">Metode Konsultasi *</span>
+                            <div class="d-flex gap-4">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="metode" id="online" value="online" required>
+                                    <label class="form-check-label fw-semibold" for="online">Online</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="metode" id="offline" value="offline">
+                                    <label class="form-check-label fw-semibold" for="offline">Offline</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Topik -->
+                        <div class="mb-4">
+                            <span class="form-label fw-bold small text-dark d-block mb-2">Topik yang Dibutuhkan</span>
+                            <div class="d-flex flex-wrap gap-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="frontend" name="topik" value="frontend">
+                                    <label class="form-check-label fw-semibold" for="frontend">Frontend</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="database-check" name="topik" value="database">
+                                    <label class="form-check-label fw-semibold" for="database-check">Database</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="system-analysis" name="topik" value="system-analysis">
+                                    <label class="form-check-label fw-semibold" for="system-analysis">Analisis Sistem</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Deskripsi -->
+                        <div class="form-floating mb-4">
+                            <textarea class="form-control" id="deskripsi" name="deskripsi" placeholder="Deskripsi Kebutuhan" style="height: 120px;" required></textarea>
+                            <label for="deskripsi"><i class="bi bi-pencil me-1"></i> Deskripsi Kebutuhan *</label>
+                            <div class="invalid-feedback">Jelaskan kebutuhan atau permasalahan Anda.</div>
+                        </div>
+
+                        <!-- Persetujuan -->
+                        <div class="form-check mb-4">
+                            <input class="form-check-input" type="checkbox" id="persetujuan" name="persetujuan" required>
+                            <label class="form-check-label small fw-semibold text-secondary" for="persetujuan">
+                                Saya menyetujui informasi yang diberikan digunakan untuk keperluan konsultasi. *
+                            </label>
+                            <div class="invalid-feedback">Anda harus menyetujui syarat & ketentuan.</div>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-submit rounded-pill px-5 py-3 fw-bold d-inline-flex align-items-center gap-2">
+                            Kirim Permohonan <i class="bi bi-send-fill"></i>
+                        </button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+    <footer class="site-footer bg-dark-custom text-white py-5">
+        <div class="container">
+            <div class="row gy-4 align-items-center">
+                
+                <!-- Info Brand & Hak Cipta -->
+                <div class="col-lg-4 text-center text-lg-start">
+                    <h5 class="fw-bold text-white mb-2">Desnita<span class="text-accent">.Del</span></h5>
+                    <p class="small text-white-50 mb-0">S1 Sistem Informasi — Institut Teknologi Del</p>
+                    <p class="small text-white-50">© 2026 Desnita Pardosi. All rights reserved.</p>
+                </div>
+
+                <!-- Kontak Langsung (Email & Telepon) -->
+                <div class="col-lg-4 text-center">
+                    <div class="d-flex flex-column align-items-center gap-2 small">
+                        <a href="mailto:desnitapardosi@gmail.com" class="footer-contact-link text-white-50 text-decoration-none">
+                            <i class="bi bi-envelope-fill text-accent me-2"></i>desnitapardosi@gmail.com
+                        </a>
+                        <a href="tel:+6281234567890" class="footer-contact-link text-white-50 text-decoration-none">
+                            <i class="bi bi-telephone-fill text-accent me-2"></i>+62 812-3456-7890
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Media Sosial & Akun Profesional -->
+                <div class="col-lg-4 text-center text-lg-end">
+                    <p class="small text-white-50 mb-2 fw-semibold">Hubungi Saya:</p>
+                    <div class="d-flex justify-content-center justify-content-lg-end gap-3">
+                        <!-- Gmail -->
+                        <a href="mailto:desnitapardosi@gmail.com" class="social-icon-btn" aria-label="Email" title="Send Email">
+                            <i class="bi bi-envelope"></i>
+                        </a>
+                        <!-- Instagram -->
+                        <a href="https://instagram.com/nyyytaaaazz" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram" title="Instagram">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/in/desnita-pardosi-a49711388" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn" title="LinkedIn">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <!-- GitHub -->
+                        <a href="https://github.com/desnitapardosi" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub" title="GitHub">
+                            <i class="bi bi-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5.3 JS Bundle CDN (Wajib untuk Modal & Navbar Toggle) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Client-side Validation Script -->
+    <script>
+        (() => {
+            'use strict'
+            const forms = document.querySelectorAll('.needs-validation')
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+</body>
+
+</html>
